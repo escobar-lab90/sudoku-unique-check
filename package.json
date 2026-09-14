@@ -1,0 +1,13 @@
+{
+  "name": "sudoku-unique-check",
+  "version": "0.1.0",
+  "description": "CLI that answers whether a sudoku puzzle has exactly one solution",
+  "type": "module",
+  "bin": {
+    "sudoku-unique": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT"
+}
