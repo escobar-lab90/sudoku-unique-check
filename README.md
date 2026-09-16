@@ -83,6 +83,13 @@ tsc
 node dist/cli.js board.txt
 ```
 
+Tests use Node's built-in test runner, no separate test framework:
+
+```
+tsc
+node --test dist
+```
+
 ## How it decides uniqueness
 
 `src/solver.ts` is a plain backtracking solver with a most-constrained-cell
